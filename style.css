@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 11vh;
+    /* background-color: rgb(0, 0, 0); */
+    background: linear-gradient(rgb(0, 0, 0) 30%, rgb(35 21 15), rgb(54 29 19));
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+#f_img{
+    /* height: 6vh; */
+    width: 3.3vw;
+    border-radius: 50%;
+}
+
+#s_img{
+    margin-left: 15px;
+    height: 6.5vh;
+    width: 8vw;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    list-style: none;
+}
+
+.navbar li a{
+    color: white;
+    margin: 2px 25px 2px 25px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    color: rgb(213 161 75);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.back1{
+    background-image: url(Images/coffeebeans.webp);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1 :first-child{
+    font-size: 8rem;
+    margin-bottom: 36px;
+}
+
+.main1 p{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.back2{
+    width: 100%;
+
+    margin-top: 100px;
+}
+
+.s_first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s_first img{
+    height: 54vh;
+    width: 34vw;
+}
+
+.s_first_p{
+    line-height: 40px;
+    text-align: center;
+}
+
+#s_f_p{
+    font-size: 4.5rem;
+    line-height: 105px;
+}
+
+.s_first_p p{
+    color: rgb(54, 6, 6);
+    font-size: 1.5rem;
+    margin-left: 15rem;
+}
+
+#s_f_pl{
+    margin-top: 15px;
+    font-size: 2.2rem;
+}
+
+.s_second{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s_second_p{
+    line-height: 40px;
+    text-align: center;
+}
+
+#s_s_p{
+    font-size: 4.5rem;
+    line-height: 105px;
+}
+
+.s_second_p p{
+    color: rgb(54, 6, 6);
+    font-size: 1.5rem;
+    margin-right: 10rem;
+}
+
+#s_s_pl{
+    font-size: 2.2rem;
+    margin-top: 15px;
+}
+
+.s_second img{
+    height: 54vh;
+    width: 34vw;
+    margin-left: 115px;
+}
+
+.s_thrid{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s_thrid img{
+    height: 54vh;
+    width: 34vw;
+}
+
+.s_thrid_p{
+    line-height: 40px;
+    text-align: center;
+}
+
+#s_t_p{
+    font-size: 4.5rem;
+    line-height: 105px;
+}
+
+.s_thrid_p p{
+    color: rgb(54, 6, 6);
+    font-size: 1.5rem;
+    /* margin-left: 150px; */
+    margin-left: 15rem;
+}
+
+#s_t_pl{
+    font-size: 2.2rem;
+    margin-top: 15px;
+}
+
+.back3{
+    margin-top: 100px;
+    background-color: rgb(54 29 19);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.t_top :first-child{
+    font-size: 5rem;
+    /* padding-top: 6rem; */
+    font-weight: 800;
+}
+
+.t_top p{
+    margin-top: 18px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+}
+
+.t_mid{
+    /* margin-top: 5rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container{
+    height: 46vh;
+    width: 18vw;
+    /* border: 2px solid black; */
+}
+
+.container img{
+    height: 35vh;
+    width: 16vw;
+    margin-left: 19px;
+    border-radius: 10px;
+}
+
+#t_m{
+    font-size: 1.8rem;
+    margin-top: 12px;
+    font-weight: 700;
+}
+
+.container p{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    margin-top: 6px;
+}
+
+.back4{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.f_mid{
+    height: 100vh;
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 294%;
+    position: relative;
+    animation: slide 15s infinite;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(0); } 
+    33.33% { transform: translateX(-33.33%); }
+    58% { transform: translateX(-33.33%); } 
+    66.66% { transform: translateX(-66.66%); }
+    92% { transform: translateX(-66.66%); } 
+    100% { transform: translateX(0); }
+}
+
+.slide{
+    display: flex;
+    justify-content: center;
+    width: 33.33%;
+    align-items: center;
+}
+
+.slide img{
+    height: 58vh;
+    width: 37vw;
+}
+
+.slidep{
+    margin-left: 80px;
+}
+
+.slidep :first-child{
+    font-size: 4.2rem;
+    line-height: 135px;
+}
+
+.slidep p{
+    font-size: 1.3rem;
+    color: rgb(54, 6, 6);
+    text-align: center;
+}
+
+.f_pl{
+    font-size: 35px;
+    line-height: 55px;
+    font-weight: 600;
+}
+
+.segment{
+    height: 5px;
+    background-color: rgb(54 29 19);
+    width: 100%;
+}
+
+.back5{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    /* border: 2px solid black; */
+    border-radius: 25px;
+    height: 74vh;
+    width: 80vw;
+    display: flex;
+}
+
+.left{
+    background-color: rgb(54 29 19);
+    height: 74vh;
+    width: 60vw;
+    /* padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left img{
+    /* height: 20vh; */
+    width: 7vw;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.leftp :first-child{
+    font-size: 3.9rem;
+    line-height: 75px;
+    margin-bottom: 18px;
+}
+
+.leftp p{
+    font-size: 18px;
+    color: white;
+    line-height: 23px;
+    margin: auto 50px;
+}
+
+#l_p{
+    font-size: 27px;
+    line-height: 33px;
+    margin-top: 17px;
+}
+
+.right{
+    background-color: rgb(255 233 226);
+    height: 74vh;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#log{
+    font-size: 55px;
+    font-weight: 800;
+    color: rgb(54, 6, 6);
+    margin-bottom: 30px;
+}
+
+.r_l{
+    font-size: 21px;
+    color: rgb(54, 6, 6);
+}
+
+.r_i{
+    padding: 7px 30px 7px 30px;
+    margin-bottom: 18px;
+    border-radius: 6px;
+    background-color: rgb(54 29 19 / 20%);
+}
+
+.right button{
+    padding: 8px 20px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgb(54 29 19);
+    color: white;
+    border-radius: 8px;
+}
+
+.back6{
+    height: 15vh;
+    width: 100%;
+    background-image: url(Images/coffeebeans.webp);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back6 p{
+    font-size: 23px;
+    color: white;
+}
